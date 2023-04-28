@@ -1,7 +1,8 @@
 # Control Flow in JavaScript
 >Control flow refers to the order in which statements are executed in a program. In JavaScript, there are several control flow statements that allow you to control the flow of execution in your code.
 
-### 1. If Statement
+## 1. Conditional Statements:
+### 1.1. If Statement
 The `if` statement is used to execute a block of code if a certain condition is true. Here's an example:
 
 ```Javascript
@@ -16,7 +17,7 @@ if (num > 0) {
 
 >In this example, the code inside the `if` statement will only be executed if the `num` variable is greater than 0. If the condition is false, the code inside the `if` statement will be skipped.
 
-### 2. If-Else Statement
+### 1.2. If-Else Statement
 The `if-else` statement is used to execute one block of code if a condition is true, and another block of code if the condition is false. Here's an example:
 
 ```Javascript
@@ -33,7 +34,7 @@ if (num > 0) {
 
 >In this example, if the `num` variable is greater than 0, the first message will be printed. If the `num` variable is less than or equal to 0, the second message will be printed.
 
-### 3. Else-If Statement
+### 1.3. Else-If Statement
 The `else-if` statement is used to test multiple conditions. It's often used in combination with `if` and `else` statements to create more complex logic. Here's an example:
 
 ```Javascript
@@ -77,7 +78,9 @@ switch (day) {
 
 >In this example, the code will check the value of the `day` variable and execute the corresponding code block. If the `day` variable is "Monday", the first message will be printed. If it's "Tuesday", the second message will be printed, and so on. If none of the conditions match, the `default` block will be executed.
 
-### 5. For Loop
+## 2. Loop Statements:
+
+### 2.1. For Loop
 The `for` loop is used to execute a block of code a specified number of times. Here's an example:
 
 ```Javascript
@@ -90,7 +93,7 @@ for (let i = 0; i < 5; i++) {
 
 >In this example, we're using a for loop to log the numbers 1 through 10 to the console. The i variable is initialized to 1, and the loop will continue as long as i is less than or equal to 10. On each iteration of the loop, the code inside the curly braces will be executed, which will log the value of i to the console. Finally, the i variable is incremented by 1 at the end of each iteration.
 
-### 6. While Loop
+### 2.2. While Loop
 The `while` `loop` allows us to execute a block of code as long as a certain condition is true. Here's an example:
 
 ```Javascript
@@ -109,7 +112,7 @@ while (i < 5) {
 
 >The end result is that the program prints the numbers 0 through 4 to the console, each on its own line.
 
-### 7. Do-While Loop
+### 2.3. Do-While Loop
 The `do-while` loop is similar to the `while` loop, but it guarantees that the code inside the loop will execute at least once, even if the condition is initially false. Here's an example:
 
 ```Javascript
